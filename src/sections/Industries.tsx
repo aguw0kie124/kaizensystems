@@ -55,11 +55,8 @@ export default function Industries() {
       <div className="mx-auto max-w-[1200px] px-6 md:px-10">
         <div className="mx-auto max-w-[720px] text-center">
           <h2 className="text-3xl font-semibold leading-tight text-ink md:text-4xl">
-            Who we work with
+            Made for businesses where speed, trust, and consistency shape revenue
           </h2>
-          <p className="mt-4 text-base leading-7 text-ink-light">
-            Any business where speed, trust, appointments, referrals, and consistent follow-up shape revenue.
-          </p>
         </div>
 
         <div className="mt-12">
