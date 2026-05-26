@@ -1,0 +1,81 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 0 0% 4%;
+    --card: 0 0% 100%;
+    --card-foreground: 0 0% 4%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 0 0% 4%;
+    --primary: 0 0% 4%;
+    --primary-foreground: 0 0% 98%;
+    --secondary: 0 0% 97%;
+    --secondary-foreground: 0 0% 4%;
+    --muted: 0 0% 97%;
+    --muted-foreground: 240 2% 35%;
+    --accent: 225 100% 52%;
+    --accent-foreground: 0 0% 100%;
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 0 0% 0% / 0.08;
+    --input: 0 0% 0% / 0.15;
+    --ring: 225 100% 52%;
+    --radius: 0.5rem;
+  }
+
+  body {
+    font-family: 'Inter', system-ui, -apple-system, sans-serif;
+    @apply bg-white text-[#0A0A0A] antialiased;
+  }
+}
+
+@layer utilities {
+  .text-ink {
+    color: #0A0A0A;
+  }
+  .text-ink-light {
+    color: #56565A;
+  }
+  .text-ink-muted {
+    color: #9B9BA3;
+  }
+  .text-ink-inverted {
+    color: #FFFFFF;
+  }
+  .text-ink-inverted-muted {
+    color: rgba(255, 255, 255, 0.6);
+  }
+  .bg-surface {
+    background-color: #F7F7F7;
+  }
+  .bg-ink {
+    background-color: #0A0A0A;
+  }
+  .bg-ink-soft {
+    background-color: #141414;
+  }
+  .text-accent-sage {
+    color: #8EA58F;
+  }
+  .bg-accent-sage {
+    background-color: #8EA58F;
+  }
+  .bg-accent-sage-soft {
+    background-color: rgba(142, 165, 143, 0.14);
+  }
+  .border-accent-sage {
+    border-color: #8EA58F;
+  }
+  .border-light {
+    border-color: rgba(0, 0, 0, 0.08);
+  }
+  .border-medium {
+    border-color: rgba(0, 0, 0, 0.15);
+  }
+  .border-dark {
+    border-color: rgba(255, 255, 255, 0.1);
+  }
+}
