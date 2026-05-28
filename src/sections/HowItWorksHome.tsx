@@ -5,12 +5,12 @@ export default function HowItWorksHome() {
         <div className="grid gap-10 lg:grid-cols-[0.8fr_1.5fr]">
           <div>
             <h2 className="text-3xl font-semibold leading-tight text-ink md:text-4xl">
-              How It Works
+              Capture. Convert. Compound.
             </h2>
             <div className="mt-5 h-1 w-16 bg-accent-sage" />
           </div>
           <p className="max-w-[760px] text-lg leading-8 text-ink-light">
-            Every system is designed around how your business operates, the tools you already use, and the results you need. The goal is more leads, faster follow-up, smoother operations, and happier clients running in the background.
+            Every system is designed around your current tools and the revenue opportunities you are missing. We capture more leads, convert them faster with automated follow-up, and turn satisfied clients into reviews and referrals that help your business scale.
           </p>
         </div>
       </div>

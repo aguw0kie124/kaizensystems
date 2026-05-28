@@ -13,36 +13,36 @@ const industries: Industry[] = [
   {
     title: 'Real estate agencies',
     summary:
-      'For teams managing buyer, seller, showing, listing, and referral follow-up.',
-    exampleServices: ['Lead routing', 'Showing follow-up', 'Listing intake', 'Post-close reviews'],
+      'For teams converting buyer, seller, showing, listing, and referral interest into active clients.',
+    exampleServices: ['Listing lead capture', 'Showing follow-up', 'Consultation booking', 'Post-close reviews'],
     Icon: Home,
   },
   {
     title: 'Insurance agencies',
     summary:
-      'For agencies handling quote requests, renewals, appointments, and policy check-ins.',
-    exampleServices: ['Quote intake', 'Renewal reminders', 'Appointment booking', 'Coverage check-ins'],
+      'For agencies converting quote requests into booked appointments and stronger local reputation.',
+    exampleServices: ['Quote request capture', 'Instant response', 'Appointment booking', 'Review requests'],
     Icon: ShieldCheck,
   },
   {
     title: 'Home services',
     summary:
-      'For contractors and service teams responding to estimate requests, bookings, and job reviews.',
-    exampleServices: ['Estimate requests', 'Quote follow-up', 'Booking reminders', 'Job-completion reviews'],
+      'For contractors and service teams turning estimate requests into booked jobs and completed jobs into reviews.',
+    exampleServices: ['Estimate capture', 'Quote follow-up', 'Booking reminders', 'Job-completion reviews'],
     Icon: Hammer,
   },
   {
     title: 'Professional practices',
     summary:
-      'For legal, financial, consulting, and advisory firms with repeatable client intake.',
-    exampleServices: ['Consultation requests', 'Client intake', 'Document collection', 'Follow-up reminders'],
+      'For legal, financial, consulting, and advisory firms converting inquiries into scheduled consultations.',
+    exampleServices: ['Consultation capture', 'Instant response', 'Appointment scheduling', 'Review requests'],
     Icon: Briefcase,
   },
   {
     title: 'Other local businesses',
     summary:
-      'For any owner-led business where missed follow-up, handoffs, or admin work slows growth.',
-    exampleServices: ['Lead capture', 'Customer follow-up', 'Internal handoffs', 'Review requests'],
+      'For any owner-led business where lead capture, follow-up, reviews, or referrals are limiting growth.',
+    exampleServices: ['Lead capture', 'Customer follow-up', 'Booking workflows', 'Referral campaigns'],
     Icon: MoreHorizontal,
   },
 ];
@@ -55,7 +55,7 @@ export default function Industries() {
       <div className="mx-auto max-w-[1200px] px-6 md:px-10">
         <div className="mx-auto max-w-[720px] text-center">
           <h2 className="text-3xl font-semibold leading-tight text-ink md:text-4xl">
-            Made for businesses where speed, trust, and consistency shape revenue
+            Made for businesses where speed, trust, and follow-up shape growth
           </h2>
         </div>
 
@@ -104,7 +104,7 @@ export default function Industries() {
             </div>
 
             <div>
-              <p className="text-sm font-semibold text-ink">Example services</p>
+              <p className="text-sm font-semibold text-ink">Growth opportunities</p>
               <div className="mt-4 grid gap-3 sm:grid-cols-2">
                 {selectedIndustry.exampleServices.map((service) => (
                   <div key={service} className="border-t border-light pt-3">

@@ -8,7 +8,7 @@ export default function Footer() {
           <div>
             <div className="text-xl font-semibold text-ink-inverted">Kaizen Systems</div>
             <p className="mt-3 max-w-[360px] text-sm leading-6 text-ink-inverted-muted">
-              Enterprise-grade automation systems for local business growth.
+              Growth systems for local businesses ready to capture leads, convert leads, and compound through reviews and referrals.
             </p>
           </div>
 
@@ -17,7 +17,6 @@ export default function Footer() {
             <div className="mt-4 grid gap-3 text-sm text-ink-inverted-muted">
               <span>Landing page & lead capture</span>
               <span>Lead & follow-up system</span>
-              <span>Client onboarding system</span>
               <span>Reputation & referral system</span>
             </div>
           </div>

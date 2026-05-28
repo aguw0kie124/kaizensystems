@@ -26,13 +26,13 @@ export default function ContactForm() {
           <div>
             <div className="mb-8 h-1 w-20 bg-accent-sage" />
             <h2 className="text-3xl font-semibold leading-tight text-ink md:text-4xl">
-              Share where work is getting stuck.
+              Share where growth is getting stuck.
             </h2>
             <p className="mt-5 max-w-[460px] text-base leading-7 text-ink-light">
-              We will map the workflow and identify where automation can create the biggest impact.
+              We will map your lead flow and identify where automation can create the biggest growth impact.
             </p>
             <p className="mt-5 max-w-[460px] text-base leading-7 text-ink-light">
-              Leads, follow-up, onboarding, reviews, referrals, operations, or traffic.
+              Lead capture, follow-up, booking, reviews, referrals, or local visibility.
             </p>
           </div>
 
@@ -41,7 +41,7 @@ export default function ContactForm() {
               <div>
                 <h3 className="text-2xl font-semibold text-ink">Message sent.</h3>
                 <p className="mt-3 text-base leading-7 text-ink-light">
-                  Thanks. We will review the process you shared and follow up with next steps.
+                  Thanks. We will review the growth constraint you shared and follow up with next steps.
                 </p>
               </div>
             ) : (
@@ -81,10 +81,10 @@ export default function ContactForm() {
                 </div>
 
                 <div>
-                  <label className="mb-1.5 block text-sm font-semibold text-ink">What should improve?</label>
+                  <label className="mb-1.5 block text-sm font-semibold text-ink">Where should growth improve?</label>
                   <textarea
                     rows={5}
-                    placeholder="Example: lead follow-up, booking, reviews, onboarding, traffic..."
+                    placeholder="Example: lead capture, instant response, booking, reviews, referrals..."
                     className={`${inputClass} h-auto resize-none py-3`}
                   />
                 </div>

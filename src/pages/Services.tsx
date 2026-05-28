@@ -6,22 +6,17 @@ const serviceData = [
   {
     title: 'Landing Page & Lead Capture',
     description:
-      'A clean, optimized, conversion-focused page that represents your business professionally and feeds directly into your automation system.',
+      'A clean, optimized, conversion-focused page that represents your business professionally and turns traffic into leads, feeding every inquiry directly into your follow-up system.',
   },
   {
     title: 'Lead & Follow-Up System',
     description:
-      'Every inquiry is responded to, qualified, and booked automatically, helping create more bookings, shorter response times, and higher conversion.',
-  },
-  {
-    title: 'Client Onboarding System',
-    description:
-      'New clients onboard themselves. No chasing, no paperwork headaches, and fewer manual steps for your team.',
+      'Every inquiry gets an immediate response, timed follow-up, and a clear path to book before interest goes cold.',
   },
   {
     title: 'Reputation & Referral System',
     description:
-      'After a transaction closes or a service is completed, the system sends a timely email or SMS asking the client to leave a Google review or referral. More reviews and word-of-mouth help build reputation and local visibility over time.',
+      'After a job, appointment, or engagement is completed, the system asks for a Google review or referral while the experience is still fresh.',
   },
 ];
 

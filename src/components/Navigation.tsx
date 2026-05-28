@@ -14,10 +14,6 @@ export default function Navigation() {
   const location = useLocation();
 
   useEffect(() => {
-    setMobileOpen(false);
-  }, [location.pathname]);
-
-  useEffect(() => {
     if (mobileOpen) {
       document.body.style.overflow = 'hidden';
     } else {
@@ -73,7 +69,7 @@ export default function Navigation() {
               to="/contact"
               className="text-sm font-semibold bg-ink text-ink-inverted px-5 py-2.5 rounded-sm hover:bg-accent-sage transition-colors duration-200"
             >
-              Discuss outcomes
+              Discuss growth
             </Link>
           </div>
 
@@ -120,7 +116,7 @@ export default function Navigation() {
             onClick={() => setMobileOpen(false)}
             className="text-base font-semibold bg-ink text-ink-inverted px-6 py-3 rounded-sm mt-4 text-center"
           >
-            Discuss outcomes
+            Discuss growth
           </Link>
         </div>
       </div>

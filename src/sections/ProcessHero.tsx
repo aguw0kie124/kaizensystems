@@ -1,13 +1,18 @@
 export default function ProcessHero() {
   return (
     <section data-light-section className="bg-white pt-[72px]">
-      <div className="mx-auto max-w-[1200px] px-6 py-16 md:px-10 lg:py-20">
-        <div className="mb-8 h-1 w-20 bg-accent-sage" />
-        <h1 className="max-w-[860px] text-4xl font-semibold leading-[1.08] text-ink md:text-6xl">
-          How It Works
-        </h1>
-        <p className="mt-5 max-w-[760px] text-lg leading-8 text-ink-light">
-          Every system is designed around how your business operates, the tools you already use, and the results you need. The goal is more leads, faster follow-up, smoother operations, and happier clients running in the background.
+      <div className="mx-auto grid max-w-[1200px] gap-6 px-6 py-10 md:px-10 lg:grid-cols-[0.72fr_1.28fr] lg:items-end lg:py-12">
+        <div>
+          <div className="mb-6 h-1 w-16 bg-accent-sage" />
+          <p className="text-sm font-semibold uppercase tracking-[0.18em] text-accent-sage">
+            How it works
+          </p>
+          <h1 className="mt-4 max-w-[540px] text-3xl font-semibold leading-tight text-ink md:text-4xl">
+            A growth system with direction.
+          </h1>
+        </div>
+        <p className="max-w-[700px] text-lg leading-8 text-ink-light">
+          We identify where growth is getting stuck, then build systems around your existing workflow to capture more leads, convert them faster, and compound results through reviews and referrals.
         </p>
       </div>
     </section>

@@ -1,10 +1,10 @@
-import ProcessHero from '@/sections/ProcessHero';
+import ProcessSteps from '@/sections/ProcessSteps';
 import CTABanner from '@/sections/CTABanner';
 
 export default function HowItWorks() {
   return (
     <>
-      <ProcessHero />
+      <ProcessSteps />
       <CTABanner />
     </>
   );

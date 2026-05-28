@@ -24,7 +24,7 @@ const heroItems = [
     businessType: 'professional practice',
     image:
       'https://images.unsplash.com/photo-1562564055-71e051d33c19?auto=format&fit=crop&w=1200&q=80',
-    imageAlt: 'Professional meeting with documents on a table',
+    imageAlt: 'Professional meeting with materials on a table',
   },
   {
     businessType: 'local business',
@@ -71,15 +71,15 @@ export default function HeroSection() {
         <div>
           <div className="mb-8 h-1 w-20 bg-accent-sage" />
           <h1 className="max-w-[600px] text-3xl font-semibold leading-[1.08] text-ink md:text-4xl lg:text-[46px]">
-            Transform your{' '}
+            Grow and scale your{' '}
             <span className="inline-flex min-w-[14ch] items-baseline text-accent-sage sm:min-w-[17ch]">
               <span>{typedBusiness}</span>
               <span className="ml-1 inline-block h-[0.9em] w-[2px] translate-y-[0.12em] animate-pulse bg-accent-sage" aria-hidden="true" />
             </span>{' '}
-            with enterprise-grade automation.
+            with growth systems.
           </h1>
           <p className="mt-6 max-w-[560px] text-base leading-7 text-ink-light md:text-lg md:leading-8">
-            <span className="font-semibold text-accent-sage">AI Powered</span> end-to-end systems custom-built around how you operate, designed to scale with you, and focused on optimizing business growth.
+            <span className="font-semibold text-accent-sage">AI-powered growth automation</span> custom-built to capture more leads, convert them faster, and turn completed work into reviews and referrals that help the next job close easier.
           </p>
 
           <div className="mt-9 flex flex-col gap-4 sm:flex-row">
@@ -87,7 +87,7 @@ export default function HeroSection() {
               to="/contact"
               className="inline-flex items-center justify-center rounded-sm bg-ink px-6 py-3 text-sm font-semibold text-ink-inverted transition-colors duration-200 hover:bg-accent-sage"
             >
-              Discuss outcomes
+              Discuss growth
             </Link>
             <Link
               to="/services"
